@@ -62,7 +62,7 @@ class WorldLevel {
 
       const floatY = sin(frameCount * 0.02 + j.x) * 8;
 
-      fill(190, 240, 255, 130);
+      fill(255, 0, 0);
       noStroke();
       ellipse(0, floatY, 40, 27);
 
